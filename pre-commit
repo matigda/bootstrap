@@ -1,0 +1,3 @@
+#!/bin/bash
+
+bin/php-cs-fixer fix src/ --config="php_cs.dist" -v --dry-run;
