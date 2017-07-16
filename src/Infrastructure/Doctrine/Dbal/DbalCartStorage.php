@@ -6,7 +6,7 @@ namespace Infrastructure\Doctrine\Dbal;
 use Doctrine\DBAL\Connection;
 use AppBundle\ReadModel\CartView\CartView;
 use AppBundle\ReadModel\CartView\ProductCartView;
-use ApppBundle\ReadModel\Query\CartViewQueryInterface;
+use AppBundle\ReadModel\Query\CartViewQueryInterface;
 
 class DbalCartStorage implements CartViewQueryInterface
 {

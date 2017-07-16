@@ -2,7 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Domain;
+namespace Domain\Order;
+
+use Domain\User;
+use Domain\Cart\Cart;
 
 class CreateOrderService
 {
@@ -11,7 +14,7 @@ class CreateOrderService
         // podaj orderowi shipping address
         $order = new Order();
 
-        foreach ($cart->getProducts() as $product) {
+        foreach ($cart->getItems() as $item) {
 
         }
 

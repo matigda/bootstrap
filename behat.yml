@@ -1,0 +1,7 @@
+default:
+  extensions:
+        Behat\Symfony2Extension: ~
+
+  suites:
+        default:
+            contexts: [CartContext]

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types = 1);
 
-namespace ApppBundle\ReadModel\Query;
+namespace AppBundle\ReadModel\Query;
 
 use AppBundle\ReadModel\CartView\CartView;
 
